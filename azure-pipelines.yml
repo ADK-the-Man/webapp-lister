@@ -19,4 +19,4 @@ stages:
         git --version
         java -version
         kubectl -version
-        mysql -version
+        mysql --version
