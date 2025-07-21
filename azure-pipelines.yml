@@ -20,7 +20,7 @@ stages:
         java -version
         kubectl --version
         mysql --version
-        echo "This is for new file" >> test.txt
+    - bash: echo "This is New test" >> test.txt
 
     - task: CopyFiles@2
       inputs:
